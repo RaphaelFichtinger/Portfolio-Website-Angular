@@ -1,0 +1,21 @@
+<button (click)="switchLanguage()">{{ 'EN' | translate }}</button>
+<br>
+
+<a [routerLink]="['/']" routerLinkActive="router-link-active" class="impressum-btn">{{ "back" | translate}}</a>
+<br><br>
+<div class="imprint-div">
+<h1 class="DieterHeading1">{{ "imprint" | translate}}</h1>
+<h2 class="HeadingLeft"><span>{{ "imprint-according" | translate}}</span></h2>
+<p class="Body"><br>Raphael Fichtinger</p>
+<p class="Body"><span class="multiline"><br>Troising 9 <br>
+    3650 Pöggstall
+    Austria</span></p>
+<h2 class="HeadingLeft"><span>{{ "contact-imprint" | translate }}</span></h2><br>
+<p class="Body">E-mail: {{mail}}</p>
+<p class="Body">Phone: +43 68120569711</p><br><br><br>
+<h2 class="HeadingLeft"><span>{{ "disclaimer" | translate }}</span></h2><br>
+<p class="Body">{{ "disc-text-main" | translate }}</p>
+<p class="Body">{{ "legal-info" | translate }}</p><br><br>
+<h2 class="HeadingLeft"><span>{{ "copyright-notice" | translate}}</span></h2><br>
+<p class="Body">{{ "copyright-text" | translate }}</p>
+<p class="DieterSmall">{{ "dieter" | translate }}</p></div>

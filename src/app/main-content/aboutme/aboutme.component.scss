@@ -1,0 +1,370 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.anchor {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.main-content {
+    height: 242px;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin-left: 3dvw;
+    margin-right: 3dvw;
+    margin-top: 58px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    p {
+        font-family: 'Montserrat100';
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    animation: slideFromLeft 0.8s ease forwards;
+}
+
+.i-am-div {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat100';
+}
+
+.name {
+    font-size: 22px;
+    font-family: 'Montserrat300';
+            background-image: linear-gradient(to right, rgb(230, 0, 255), rgb(98, 0, 255),);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideFromLeft 1.5s ease forwards;
+}
+
+.socials {
+    height: 58px;
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    background-color: rgba(42, 42, 42, 0.55);
+    border-radius: 12px;
+    border: 2px solid rgb(86, 86, 86);
+    justify-content: center;
+    animation: slideFromLeft 1.5s ease forwards;
+}
+
+.sub-content {
+    margin-right: 5dvw;
+    margin-left: 5dvw;
+    opacity: 90%;
+    border-radius: 12px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    opacity: 70%;
+    animation: slideFromTop 1s ease forwards;
+}
+
+.sub-left {
+    border-radius: 12px;
+    border: 2px solid rgb(86, 86, 86);
+    background-color: rgba(42, 42, 42, 0.55);
+
+    width: 100%;
+    background-image: url(/assets/img/me.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    height: 180px;
+
+}
+
+.sub-right {
+    background-color: rgba(42, 42, 42, 0.55);
+    border-radius: 12px;
+    border: 2px solid rgb(86, 86, 86);
+    width: 100%;
+    height: 180px;
+    border: 2px solid rgb(86, 86, 86);
+        font-family: 'Montserrat300';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 22px;
+    p {
+        background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(140, 140, 140), rgb(255, 255, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 250s linear infinite;
+        margin-left: 8px;
+        margin-right: 8px;
+
+    }
+}
+
+.bottom-content {
+    background-color: rgba(42, 42, 42, 0.55);
+    border-radius: 12px;
+    border: 2px solid rgb(86, 86, 86);
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    gap: 18px;
+    justify-content: center;
+    animation: slideFromLeft 1.5s ease forwards;
+}
+
+.bottom-text {
+    color: white;
+    font-family: 'Montserrat100';
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 570px) {
+.name {
+        font-size:42px;
+    }
+.socials {
+        height: 78px;
+        gap: 68px;
+        img {
+            height: 48px;
+        }
+    }
+.bottom-content {
+        height: 200px;
+    }
+}
+
+@media (min-width: 690px) {
+.sub-left{
+    height: 300px;
+}
+.sub-right{
+    height:300px;
+    p{
+        font-size: 32px;
+    }
+}
+
+}
+
+@media (min-width: 760px) {
+.socials {
+    gap: 98px;
+    }
+}
+
+@media (min-width: 870px) {
+.main-content{
+    margin-left: 14dvw;
+    margin-right: 14dvw;
+}
+
+.socials{
+    margin-left: 14dvw;
+    margin-right: 14dvw;
+}
+
+.sub-content{
+    margin-left: 14dvw;
+    margin-right: 14dvw; 
+}
+
+.bottom-content{
+    margin-left: 14dvw;
+    margin-right: 14dvw; 
+}
+
+
+}
+
+
+
+@media (min-width: 900px) {
+.sub-right {
+    p {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+}
+}
+
+
+@media (min-width:1400px) {
+section{
+    margin-top: 148px;
+}
+
+#home{
+    font-size: 38px;
+}
+
+.main-content {
+    background: none;
+    margin-top: 98px;
+    p{
+        font-size: 38px;
+    }
+}
+
+.name {
+    font-size: 102px;
+}
+
+.socials {
+    margin-top: 48px;
+    border: none;
+    background: none;
+}
+
+.sub-content {
+    opacity: 90%;
+    margin-top: 78px;
+}
+
+.sub-left{
+    height: 400px;
+    background-color: rgb(33, 33, 33);
+}
+
+
+.sub-right {
+font-size: 32px;
+height: 400px;
+
+p{
+    font-size: 38px;
+
+}
+}
+
+.bottom-content {
+    margin-top: 18px;
+}
+}
+
+@media (min-width:1650px) {
+
+    .sub-content{
+        margin-left: 18dvw;
+        margin-right: 18dvw;
+    }
+
+    .bottom-content{
+        margin-left: 18dvw;
+        margin-right: 18dvw;
+    }
+
+
+
+}
+
+
+
+@media (min-width:1850px) {
+    .sub-content {
+        margin-left: 20dvw;
+        margin-right: 20dvw;
+    }
+
+    .bottom-content {
+        margin-left: 20dvw;
+        margin-right: 20vw;
+    }
+}
+
+@media (min-width: 2000px) {
+    .sub-content {
+        margin-left: 24dvw;
+        margin-right: 24dvw;
+    }
+
+    .bottom-content {
+        margin-left: 24dvw;
+        margin-right: 24vw;
+    }
+
+}
+
+
+@media (min-width:2350px) {
+    .sub-content {
+        margin-left: 27dvw;
+        margin-right: 27dvw;
+    }
+
+    .bottom-content {
+        margin-left: 27dvw;
+        margin-right: 27dvw;
+    }
+}
+
+@media (min-width:2650px) {
+    .sub-content {
+        margin-left: 30dvw;
+        margin-right: 30dvw;
+    }
+
+    .bottom-content {
+        margin-left: 30dvw;
+        margin-right: 30dvw;
+    }
+}
+
+
+
+
+
+
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes move {
+    to {
+        background-position: 4500vh;
+    }
+}

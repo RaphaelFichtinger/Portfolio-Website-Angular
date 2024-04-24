@@ -1,0 +1,218 @@
+{"about-me": "About me",
+"EN": "DE",
+"I am": "I am",
+"bridges": "Building bridges between humans and technology.",
+"topdescription": "Hello! I am Raphael Fichtinger, 27 years old and as a frontend developer I have a lot of project experience. I have already programmed several web apps and am constantly working with UI / UX and the latest design trends. Programming is For me it's not just a skill, but a real passion. I love constantly learning new things and developing myself.",
+"skills-description":"I acquired most of my skills during my further training at the TÜV-certified Developer Akademie. There I received ongoing code reviews from experienced mentors and was able to continuously improve.",
+"sub-text-projects": "Here you can see some of my most recent projects.",
+"vampbytes-description": "Jump-and-run through object orientation. Vampo collects Ether and Poison Bottles to throw at vicious opponents.",
+"join-description": "A Kanban-style task manager for creating and managing tasks. These can be assigned to added users and organized using drag and drop.",
+"contact-text": "Are you facing a challenge or have an idea for a project? Please feel free to contact me. I look forward to discussing your ideas and implementing them with you.",
+"name-company":"Name/Company*",
+"messagebox": "Message*",
+"span-message": "please enter a message",
+"submit": "submit",
+"imprint": "imprint",
+"imprint-according": "Information according to § 5 TMG",
+"contact-imprint": "Contact us",
+"disclaimer": "Disclaimer",
+"disc-text-main": "We are responsible for the content of our Internet pages according to the provisions of general law, in particular according to Section 7 (1) of the German Telemedia Act. All contents are created with due care and to the best of our knowledge. Insofar as we refer to the Internet pages of third parties by means of hyperlinks on our Internet pages, we cannot assume any guarantee for the continuous topicality, correctness and completeness of the linked contents, as these contents are outside our area of responsibility and we have no influence on the future design. If, in your opinion, any content violates applicable law or is inappropriate, please let us know.",
+"legal-info": "The legal information on this page as well as all questions and disputes in connection with the design of this website are subject to the laws of the Federal Republic of Austria.",
+"copyright-notice": "Copyright Notice",
+"copyright-text": "The texts, images, photos, videos or graphics available on our website are generally subject to copyright protection. Any unauthorized use (especially copying, editing or distribution) of this copyright-protected content is therefore prohibited. If you intend to use this content or parts thereof, please contact us in advance using the details above. If we are not the owner of the required copyrighted rights of use ourselves, we will endeavor to arrange contact with the entitled party.",
+"dieter": "Created with the kind support of Dieter macht den Datenschutz",
+"back": "back",
+"heading-privacy": "Data protection",
+"introduction": "Introduction and overview",
+"text1": "We have written this data protection declaration (version 04/15/2024-112763205) to provide you with the requirements of the",
+"text2": "General Data Protection Regulation (EU) 2016/679",
+"text3": "and applicable national laws to explain which personal data (short data) we as controllers &#8211; and the processors commissioned by us (e.g. providers) &#8211; process, will process in the future and what legal options you have. The terms used are to be understood as gender-neutral.",
+"text4": "In short:",
+"text5": "We will inform you comprehensively about the data we process about you.",
+"text6": "Privacy policies usually sound very technical and use legal terms. This data protection declaration, however, is intended to describe the most important things to you as simply and transparently as possible. To the extent that it promotes transparency, technical",
+"text7": "Terms explained in a reader-friendly way",
+"text8": "Links to further information are provided and",
+"text9": "Graphics",
+"text10": "brought into use. We thereby inform you in clear and simple language that we only process personal data as part of our business activities if there is a corresponding legal basis. This is certainly not possible if you make as brief, unclear and legal-technical statements as possible, as are often standard on the Internet when it comes to data protection. I hope you find the following explanations interesting and informative and perhaps there is one or two pieces of information that you didn't know before.",
+"text11": "If you still have questions, we would like to ask you to contact the responsible body named below or in the legal notice, follow the existing links and look at further information on third-party sites. You can of course also find our contact details in the legal notice.",
+"text12": "scope of application",
+"text13": "This data protection declaration applies to all personal data processed by us in the company and to all personal data that companies commissioned by us (processors) process. By personal data we mean information within the meaning of Article 4 No. 1 GDPR such as a person's name, email address and postal address. The processing of personal data ensures that we can offer and bill our services and products, whether online or offline. The scope of this data protection declaration includes:",
+"text14": "all online presences (websites, online shops) that we operate",
+"text15": "Social media appearances and email communication",
+"text16": "mobile apps for smartphones and other devices",
+"text17": "In short:",
+"text18": "The data protection declaration applies to all areas in which personal data is processed in a structured manner within the company via the channels mentioned. If we enter into legal relationships with you outside of these channels, we will inform you separately if necessary.",
+"text19": "Legal basis",
+"text20": "In the following data protection declaration we provide you with transparent information about the legal principles and regulations, i.e. the legal bases of the General Data Protection Regulation, which enable us to process personal data.",
+"text21": "As far as EU law is concerned, we refer to REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of April 27, 2016. You can of course access this EU General Data Protection Regulation online on EUR-Lex, the access to the EU -Right, under",
+"text22": "read up.",
+"text23": "We only process your data if at least one of the following conditions applies:",
+"text24": "consent",
+"text25": "(Article 6 paragraph 1 lit. a GDPR): You have given us your consent to process data for a specific purpose. An example would be saving the data you entered on a contact form.",
+"text26": "Contract",
+"text27": "(Article 6 paragraph 1 lit. b GDPR): In order to fulfill a contract or pre-contractual obligations with you, we process your data. For example, if we conclude a purchase contract with you, we need personal information in advance.",
+"text28": "Legal obligation",
+"text29": "(Article 6 paragraph 1 lit. c GDPR): If we are subject to a legal obligation, we process your data. For example, we are legally obliged to keep invoices for accounting purposes. These usually contain personal data.",
+"text30": "Legitimate interests",
+"text31": "(Article 6 paragraph 1 lit. f GDPR): In the case of legitimate interests that do not restrict your fundamental rights, we reserve the right to process personal data. For example, we need to process certain data in order to operate our website securely and economically efficiently. This processing is therefore a legitimate interest.",
+"text32": "Other conditions such as the perception of recordings in the public interest and the exercise of public authority as well as the protection of vital interests generally do not apply to us. If such a legal basis is relevant, it will be shown in the appropriate place.",
+"text33": "In addition to the EU regulation, national laws also apply:",
+"text34": "Austria",
+"text35": "This is the Federal Law on the Protection of Natural Persons when Processing Personal Data",
+"text36": "Data Protection Act",
+"text37": "short",
+"text38": "Germany",
+"text39": "is that valid",
+"text40": "Federal Data Protection Act",
+"text41": "short",
+"text42": "If other regional or national laws apply, we will inform you about them in the following sections.",
+"text43": "Contact details of the person responsible",
+"text44": "If you have any questions about data protection or the processing of personal data, you will find the contact details of the responsible person or body below:",
+"text45": "contact:",
+"text46": "Imprint:",
+"text47": "Storage period",
+"text48": "Our general criterion is that we only store personal data for as long as is absolutely necessary to provide our services and products. This means that we delete personal data as soon as the reason for data processing no longer exists. In some cases, we are legally obliged to store certain data even after the original purpose has ceased, for example for accounting purposes.",
+"text49": "If you wish to have your data deleted or revoke your consent to data processing, the data will be deleted as quickly as possible and unless there is an obligation to store it.",
+"text50": "We will inform you below about the specific duration of the respective data processing, provided we have further information.",
+"text51": "Rights under the General Data Protection Regulation",
+"text52": "In accordance with Articles 13, 14 GDPR, we inform you of the following rights to which you are entitled so that data is processed fairly and transparently:",
+"text53": "According to Article 15 GDPR, you have a right to information as to whether we are processing your data. If this is the case, you have the right to receive a copy of the data and to know the following information:",
+"text54": "for what purpose we carry out the processing;",
+"text55": "the categories, i.e. the types of data, that are processed;",
+"text56": "who receives this data and, if the data is transferred to third countries, how security can be guaranteed;",
+"text57": "how long the data is stored;",
+"text58": "the existence of the right to rectification, deletion or restriction of processing and the right to object to processing;",
+"text59": "that you can complain to a supervisory authority (links to these authorities can be found below);",
+"text60": "the origin of the data if we did not collect it from you;",
+"text61": "whether profiling is carried out, i.e. whether data is automatically evaluated in order to create a personal profile for you.",
+"text62": "According to Article 16 GDPR, you have a right to correction of data, which means that we must correct data if you find errors.",
+"text63": "According to Article 17 GDPR, you have the right to deletion (“right to be forgotten”), which specifically means that you can request the deletion of your data.",
+"text64": "According to Article 18 GDPR, you have the right to restrict processing, which means that we are only allowed to store the data but not use it any further.",
+"text65": "According to Article 20 GDPR, you have the right to data portability, which means that upon request we will provide you with your data in a common format.",
+"text66": "According to Article 21 GDPR, you have a right to object, which, once enforced, will result in a change to the processing.",
+"text67": "If the processing of your data is based on Article 6 Paragraph 1 Letter e (public interest, exercise of official authority) or Article 6 Paragraph 1 Letter f (legitimate interest), you can object to the processing. We will then check as quickly as possible whether we can legally comply with this objection.",
+"text68": "If data is used to conduct direct advertising, you can object to this type of data processing at any time. We may then no longer use your data for direct marketing.",
+"text69": "If data is used to carry out profiling, you can object to this type of data processing at any time. We are then no longer allowed to use your data for profiling.",
+"text70": "According to Article 22 GDPR, you may have the right not to be subject to a decision based solely on automated processing (e.g. profiling).",
+"text71": "According to Article 77 GDPR, you have the right to lodge a complaint. This means that you can complain to the data protection authority at any time if you believe that the processing of personal data violates the GDPR.",
+"text72": "In short:",
+"text73": "You have rights &#8211; Do not hesitate to contact the responsible body listed above!",
+"text74": "If you believe that the processing of your data violates data protection law or your data protection rights have been violated in any other way, you can complain to the supervisory authority. For Austria, this is the data protection authority, whose website you can find at",
+"text75": "find. In Germany there is a data protection officer for each federal state. For further information you can contact",
+"text76": "Federal Commissioner for Data Protection and Freedom of Information (BfDI)",
+"text77": "The following local data protection authority is responsible for our company:",
+"text78": "Explanation of terms used",
+"text79": "We always strive to make our data protection declaration as clear and understandable as possible. However, this is not always easy, especially when it comes to technical and legal issues. It often makes sense to use legal terms (such as personal data) or certain technical terms (such as cookies, IP address). But we don't want to use them without explanation. Below you will find an alphabetical list of important terms used that we may not have addressed sufficiently in the previous data protection declaration. If these terms were taken from the GDPR and they are definitions, we will also cite the GDPR texts here and add our own explanations if necessary.",
+"text80": "Processor",
+"text81": "Definition according to Article 4 of the GDPR",
+"text82": "For the purposes of this Regulation, the term means:",
+"text83": "“Processor”",
+"text84": "a natural or legal person, public authority, agency or other body that processes personal data on behalf of the controller;",
+"text85": "Explanation:",
+"text86": "As a company and website owner, we are responsible for all data that we process from you. In addition to those responsible, there can also be so-called processors. This includes every company or person who processes personal data on our behalf. In addition to service providers such as tax consultants, processors can also include hosting or cloud providers, payment or newsletter providers or large companies such as Google or Microsoft.",
+"text87": "consent",
+"text88": "Definition according to Article 4 of the GDPR",
+"text89": "For the purposes of this Regulation, the term means:",
+"text90": "Consent",
+"text91": "to the data subject, any voluntary, specific, informed and unambiguous indication of his or her wishes, in the form of a statement or other clear affirmative action, by which the data subject indicates that he or she consents to the processing of personal data relating to him or her;",
+"text92": "Explanation:",
+"text93": "As a rule, such consent is given on websites via a cookie consent tool. You probably know that. Whenever you visit a website for the first time, you will usually be asked via a banner whether you agree to data processing. You can usually also make individual settings and decide for yourself which data processing you allow and which not. If you do not consent, no personal data about you may be processed. In principle, consent can of course also be given in writing, i.e. not via a tool.",
+"text94": "Personal Data",
+"text95": "Definition according to Article 4 of the GDPR",
+"text96": "For the purposes of this Regulation, the term means:",
+"text97": "“personal data”",
+"text98": "any information relating to an identified or identifiable natural person (hereinafter “data subject”); A natural person is considered to be identifiable if he or she can be identified directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more special characteristics that express the physical, physiological, genetic, psychological, economic, cultural or social identity of that natural person;",
+"text99": "Explanation:",
+"text100": "Personal data is all data that can identify you as a person. This is usually data such as:",
+"text101": "adress",
+"text102": "E-Mail-address",
+"text103": "Postal address",
+"text104": "phone number",
+"text105": "birth date",
+"text106": "Identification numbers such as social security number, tax identification number, ID card number or matriculation number",
+"text107": "Bank details such as account number, credit information, account balances and much more.",
+"text108": "According to the European Court of Justice (ECJ), yours also counts",
+"text109": "IP address for the personal data",
+"text110": "Using your IP address, IT experts can at least determine the approximate location of your device and subsequently you as the connection owner. Therefore, storing an IP address also requires a legal basis within the meaning of the GDPR. There are also so-called",
+"text111": "“special categories”",
+"text112": "of personal data that is particularly worthy of protection. These include:",
+"text113": "racial and ethnic origins",
+"text114": "political opinions",
+"text115": "religious or ideological beliefs",
+"text116": "union membership",
+"text117": "genetic data such as data collected from blood or saliva samples",
+"text118": "biometric data (this is information about psychological, physical or behavioral characteristics that can identify a person).",
+"text119": "Health data",
+"text120": "Data on sexual orientation or sex life",
+"text121": "Definition according to Article 4 of the GDPR",
+"text122": "For the purposes of this Regulation, the term means:",
+"text123": "any type of automated processing of personal data, which consists in using such personal data to evaluate certain personal aspects relating to a natural person, in particular aspects relating to work performance, economic situation, health, personal preferences, interests , analyze or predict the reliability, behavior, location or movements of that natural person;",
+"text124": "Explanation:",
+"text125": "Profiling involves collecting various information about a person in order to learn more about that person. In the web sector, profiling is often used for advertising purposes or for credit checks. Web or advertising analysis programs, for example, collect data about your behavior and interests on a website. This results in a special user profile that can be used to target advertising to a specific target group.",
+"text126": "Responsible person",
+"text127": "Definition according to Article 4 of the GDPR",
+"text128": "For the purposes of this Regulation, the term means:",
+"text129": "“responsible person”",
+"text130": "the natural or legal person, public authority, agency or other body which, alone or jointly with others, decides on the purposes and means of processing personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;",
+"text131": "Explanation:",
+"text132": "In our case, we are responsible for the processing of your personal data and consequently the &#8220;controller&#8221;. If we pass on collected data to other service providers for processing, they are “processors”. To do this, an &#8220;Order Processing Agreement (AVV)&#8221; be signed.",
+"text133": "processing",
+"text134": "Definition according to Article 4 of the GDPR",
+"text135": "For the purposes of this Regulation, the term means:",
+"text136": "„Processing“",
+"text137": "any operation or series of operations carried out with or without the aid of automated procedures in connection with personal data, such as the collection, recording, organization, structuring, storage, adaptation or modification, reading, querying, use, disclosure by transmission, distribution or other form of provision, alignment or association, restriction, deletion or destruction;",
+"text138": "Annotation:",
+"text139": "When we talk about processing in our privacy policy, we mean any type of data processing. As mentioned above in the original GDPR declaration, this includes not only collecting but also storing and processing data.",
+"text140": "All texts are copyrighted.",
+"text141": "Source: Created with the",
+"text142": "Data protection generator AustriaData protection generator Austria",
+"text143": "by",
+"txt144": "Contact",
+"text145": "I've read the",
+"text146": "privacy policy",
+"text147": "and agree to the processing of my data in accordance with the regulations.",
+"text148": "You must agree to the privacy policy.",
+"text149": "Your message has been sent. Thank you!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

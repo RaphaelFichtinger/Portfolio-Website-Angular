@@ -1,0 +1,44 @@
+.main-content{
+    max-width: 100dvw;
+    margin-right: 4dvw;
+    margin-top: 62px;
+    color: white;
+    font-family: 'Montserrat100';
+    padding-left: 14px;
+    padding-right: 32px;
+    font-size: 14px;
+    h1{
+        font-size: 18px
+    }
+}
+
+.back{
+    position: absolute;
+    top: 8px;
+    margin-left: 18px;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Montserrat300';
+    padding: 12px;
+}
+
+
+
+.translate-button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-family: 'Montserrat300';
+    border-radius: 8px;
+    border: none;
+    background-color: gray;
+        &:hover {
+            cursor: pointer;
+        }
+}

@@ -1,0 +1,330 @@
+#contact-heading {
+  height: 124px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 20px;
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: center;
+  p {
+    font-size: 48px;
+    font-family: "Montserrat300";
+    font-size: 52px;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(230, 0, 255), rgb(98, 0, 255),);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.success-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat300";
+  margin-top: 18px;
+  margin-bottom:18px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  padding: 18px;
+}
+
+.error-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 0, 0);
+  font-family: "Montserrat300";
+  margin-top: 18px;
+  margin-bottom:18px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.anchor-privacy{
+  color: rgb(255, 44, 255);
+}
+
+.contact-text {
+  background-color: rgba(42, 42, 42, 0.55);
+  border-radius: 12px;
+  border: 2px solid rgb(86, 86, 86);
+  padding: 32px;
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 24px;
+  font-family: "Montserrat100";
+  overflow-x: hidden;
+}
+
+form {
+
+  background-color: rgba(42, 42, 42, 0.55);
+  border-radius: 12px;
+  border: 2px solid rgb(86, 86, 86);
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+  margin-top: 18px;
+
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  flex-direction: column;
+  gap: 8px;
+  color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  overflow-x: hidden;
+  font-family: "Montserrat100";
+  padding-bottom: 24px;
+  a{
+    color: magenta;
+  }
+  label{
+    padding-left: 68px;
+    padding-right: 48px;
+    margin-top: 18px;
+  }
+}
+
+#input-1,
+#input-2 {
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  height: 32px;
+  width: 80%;
+  color: white;
+  border: 2px solid rgb(104, 104, 104);
+  font-family: "Montserrat100";
+}
+
+#input-3 {
+  background-color: rgba(0, 0, 0, 0.55);
+  border: 2px solid rgb(104, 104, 104);
+  border-radius: 8px;
+  height: 124px;
+  width: 80%;
+  color: white;
+  font-family: "Montserrat100";
+}
+
+.submit-btn {
+  background-color: grey; 
+  color: white; 
+  cursor: not-allowed; 
+  border: none;
+  border-radius: 8px;
+  height: 34px;
+  width: 108px;
+}
+
+.submit-btn.valid {
+  background-color: rgb(175, 3, 228); 
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  height: 34px;
+  width: 108px;
+}
+
+.spanclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Montserrat300";
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+
+@media (min-width: 760px) {
+  .contact-text {
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+  form{
+    height: 380px;
+  }
+  .submit-btn {
+    margin-top: 32px;
+  }
+
+  .submit-btn.valid {
+    margin-top: 32px;
+  }
+}
+@media (min-width: 870px) {
+  #contact-heading {
+    margin-left: 14dvw;
+    margin-right: 14dvw;
+  }
+  .contact-text {
+    margin-left: 14dvw;
+    margin-right: 14dvw;
+  }
+  form {
+    margin-left: 14dvw;
+    margin-right: 14dvw;
+  }
+}
+@media (min-width: 1100px) {
+    #contact-heading{
+        margin-top: 86px;
+    }
+    form{
+      margin-left: 25dvw;
+      margin-right: 25dvw;
+    }
+}
+
+@media (min-width: 1400px) {
+
+  #contact-heading {
+    margin-left: 36dvw;
+    margin-right: 36dvw;
+    p {
+      font-size: 82px;
+
+    }
+  }
+
+  .contact-text {
+    padding: 48px;
+    margin-top: 18px;
+    margin-left: 14dvw;
+    margin-right: 14dvw;
+    }
+
+  form {
+    margin-left: 24dvw;
+    margin-right: 24dvw;
+    margin-top: 78px;
+  }
+
+  #input-1 {
+  }
+
+  #input-3 {
+  }
+}
+
+@media (min-width: 1600px) {
+
+form{
+  margin-left: 30dvw;
+  margin-right: 30dvw;
+}
+.contact-text{
+  margin-left: 18dvw;
+  margin-right:18dvw;
+}
+}
+
+@media (min-width: 1800px) {
+
+  form{
+    margin-left: 30dvw;
+    margin-right: 30dvw;
+  }
+}
+
+@media (min-width:1850px) {
+.contact-text{
+  margin-left: 20dvw;
+  margin-right: 20dvw;
+}
+
+}
+
+
+@media (min-width: 2000px) {
+#contact-heading{
+  margin-left: 39dvw;
+  margin-right: 39dvw;
+  
+}
+.contact-text{
+  margin-left: 24dvw;
+  margin-right: 24dvw;
+}
+}
+
+@media (min-width: 2200px) {
+form{
+  margin-left: 32dvw;
+  margin-right: 32dvw;
+}
+}
+
+
+
+@media (min-width: 2300px) {
+  .contact-text {
+    margin-left: 22dvw;
+  }
+}
+
+
+@media (min-width: 2350px) {
+  .contact-text{
+    margin-left: 27dvw;
+    margin-right: 27dvw;
+  }
+  form{
+    margin-left: 36dvw;
+    margin-right: 36dvw;
+  }
+
+}
+
+@media (min-width: 2500px) {
+
+}
+
+@media (min-width:2650px){
+  .contact-text{
+    margin-left: 30dvw;
+    margin-right: 30dvw;
+  }
+}
+
+@media (min-width: 2700px) {
+form{
+  margin-left: 39dvw;
+  margin-right: 39dvw;
+}
+}
+
+@media (min-width: 2950px) {
+  #contact-heading{
+}
+}
+
+@media (min-width: 3160px) {
+  #contact-heading{
+}
+}
+
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}

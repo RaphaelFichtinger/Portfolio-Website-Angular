@@ -1,0 +1,45 @@
+
+*{
+    margin-left: 2dvw;
+    margin-right: 2dvw;
+    font-family: 'Montserrat100';
+    color: white;
+}
+
+.impressum-btn{
+    position: absolute;
+    top: 8px;
+    margin-left: 18px;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Montserrat300';
+    padding: 12px;
+}
+
+h2{
+    font-family: 'Montserrat300';
+    margin-top: 20px;
+    margin-left: -4px;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    background-color: gray;
+    font-family: 'Montserrat300';
+    border: none;
+    border-radius: 8px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    
+}
+

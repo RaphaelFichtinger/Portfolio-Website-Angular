@@ -1,0 +1,493 @@
+.projects-heading {
+  height: 124px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 20px;
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-family: "Montserrat300";
+    font-size: 52px;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(230, 0, 255), rgb(98, 0, 255),);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.skills-text {
+  height: 42px;
+  background-color: rgba(42, 42, 42, 0.55);
+  border-radius: 12px;
+  border: 2px solid rgb(86, 86, 86);
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Montserrat100";
+  font-size: 18px;
+  overflow-y: hidden;
+  padding: 16px;
+}
+
+.vampbytes-frame {
+  margin-top: 18px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  .image {
+    width: 80vw;
+    left: 10vw;
+    right: 10vw;
+    overflow-x: hidden;
+    position: absolute;
+  }
+
+  .gif {
+    width: 62vw;
+    border-radius: 10px;
+    overflow-x: hidden;
+    margin-left: 9vw;
+    margin-top: 6px;
+  }
+}
+
+.text-vampbytes {
+  background-color: rgba(42, 42, 42, 0.55);
+  border-radius: 12px;
+  border: 2px solid rgb(86, 86, 86);   
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 38px;
+  padding: 24px;
+  height: 300px;
+}
+
+.heading-vamp {
+  font-family: "Montserrat300";
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+
+}
+
+.text-vamp {
+  font-family: "Montserrat100";
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.join-frame {
+  margin-top: 18px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 28px;
+  .image {
+    width: 80vw;
+    left: 10vw;
+    right: 10vw;
+    overflow-x: hidden;
+    position: absolute;
+  }
+  .gif {
+    width: 62vw;
+    border-radius: 10px;
+    overflow-x: hidden;
+    margin-left: 9vw;
+    margin-top: 6px;
+  }
+}
+
+.text-join {
+  background-color: rgba(42, 42, 42, 0.55);
+  border-radius: 12px;
+  border: 2px solid rgb(86, 86, 86);
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+  overflow-x: hidden;
+  padding: 24px;
+  height: 300px;
+  margin-bottom: 38px;
+}
+
+.heading-join {
+  font-family: "Montserrat300";
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+.text-sub-join {
+  font-family: "Montserrat100";
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.description-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat300";
+  }
+}
+
+@media (min-width: 570px) {
+  .skills-text {
+    height: 62px;
+    overflow-y: hidden;
+  }
+
+  .vampbytes-frame {
+    margin-top: 52px;
+  }
+
+  .heading-vamp {
+    font-size: 36px;
+  }
+
+  .join-frame {
+    margin-top: 52px;
+  }
+
+  .heading-join {
+    font-size: 36px;
+  }
+  .text-vampbytes {
+    margin-left: 15dvw;
+    margin-right: 15dvw;
+  }
+  .text-join {
+    margin-left: 15dvw;
+    margin-right: 15dvw;
+  }
+}
+
+@media (min-width: 760px) {
+  .text-vampbytes {
+    margin-top: 48px;
+    margin-left: 20dvw;
+    margin-right: 20dvw;
+  }
+  .text-join {
+    margin-top: 48px;
+    margin-left: 20dvw;
+    margin-right: 20dvw;
+  }
+  .skills-text {
+    padding: 32px;
+  }
+  .text-sub-join {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 870px) {
+  .projects-heading {
+    margin-right: 14dvw;
+    margin-left: 14dvw;
+  }
+  .skills-text {
+    margin-right: 14dvw;
+    margin-left: 14dvw;
+  }
+}
+@media (min-width: 1000px) {
+  .join-frame {
+    .image {
+      width: 62vw;
+      left: 19vw;
+      right: 19vw;
+    }
+    .gif {
+      width: 48vw;
+      margin-left: 16vw;
+      margin-top: 16px;
+    }
+  }
+
+  .vampbytes-frame {
+    .image {
+      width: 62vw;
+      left: 19vw;
+      right: 19vw;
+    }
+    .gif {
+      width: 48vw;
+      margin-left: 16vw;
+      margin-top: 16px;
+    }
+  }
+  .text-join {
+    margin-left: 25dvw;
+    margin-right: 25dvw;
+  }
+  .text-vampbytes {
+    margin-left: 25dvw;
+    margin-right: 25dvw;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .join-div{
+    margin-top: 78px;
+  }
+
+  .projects-heading{
+    margin-left: 35dvw;
+    margin-right: 35dvw;
+    p{
+          font-size: 82px;
+    }
+  }
+
+  .join-frame {
+    .image {
+      width: 42vw;
+      left: 29vw;
+      right: 29vw;
+    }
+    .gif {
+      width: 32vw;
+      margin-left: 24vw;
+      margin-top: 16px;
+    }
+  }
+
+  .vampbytes-frame {
+    .image {
+      width: 42vw;
+      left: 29vw;
+      right: 29vw;
+    }
+    .gif {
+      width: 32vw;
+      margin-left: 24vw;
+      margin-top: 16px;
+    }
+  }
+
+  .text-vampbytes {
+    margin-top: 48px;
+    margin-left: 35dvw;
+    margin-right: 35dvw;
+  }
+  .text-join {
+    margin-top: 48px;
+    margin-left: 35dvw;
+    margin-right: 35dvw;
+  }
+
+
+}
+
+@media (min-width: 1600px) {
+  .join-frame {
+    .image {
+      width: 42vw;
+      left: 29vw;
+      right: 29vw;
+    }
+    .gif {
+      width: 32vw;
+      margin-left: 24vw;
+      margin-top: 16px;
+    }
+  }
+
+  .vampbytes-frame {
+    .image {
+      width: 42vw;
+      left: 29vw;
+      right: 29vw;
+    }
+    .gif {
+      width: 32vw;
+      margin-left: 24vw;
+      margin-top: 16px;
+    }
+  }
+
+  .text-vampbytes {
+    margin-top: 48px;
+  }
+  .text-join {
+    margin-top: 48px;
+  }
+
+  @media (min-width: 1650px){
+    .skills-text{
+      margin-left: 18vw;
+      margin-right: 18vw;
+    }
+  }
+  
+}
+
+@media (min-width:1850px) {
+  .skills-text{
+    margin-left: 20dvw;
+    margin-right: 20dvw;
+  }
+}
+
+@media (min-width: 1920px) {
+  .join-frame {
+    .image {
+      width: 38vw;
+      left: 31vw;
+      right: 31vw;
+    }
+    .gif {
+      width: 30vw;
+      margin-left: 25vw;
+      margin-top: 16px;
+    }
+  }
+
+  .vampbytes-frame {
+    .image {
+      width: 38vw;
+      left: 31vw;
+      right: 31vw;
+    }
+    .gif {
+      width: 30vw;
+      margin-left: 25vw;
+      margin-top: 16px;
+    }
+  }
+
+  .text-vampbytes {
+    margin-left: 38dvw;
+    margin-right: 38dvw;
+  }
+  .text-join {
+    margin-left: 38dvw;
+    margin-right: 38dvw;
+  }
+
+}
+
+@media (min-width: 2000px) {
+.skills-text{
+  margin-left: 24dvw;
+  margin-right: 24dvw;
+}
+.projects-heading{
+  margin-left: 39dvw;
+  margin-right: 39dvw;
+}
+}
+
+@media (min-width: 2100px) {
+  .join-frame {
+    .image {
+      width: 32vw;
+      left: 34vw;
+      right: 34vw;
+    }
+    .gif {
+      width: 25vw;
+      margin-left: 27.5vw;
+      margin-top: 16px;
+    }
+  }
+
+  .vampbytes-frame {
+    .image {
+      width: 32vw;
+      left: 34vw;
+      right: 34vw;
+    }
+    .gif {
+      width: 25vw;
+      margin-left: 27.5vw;
+      margin-top: 16px;
+    }
+  }
+}
+
+@media (min-width: 2350px) {
+.skills-text{
+  margin-left: 27dvw;
+  margin-right: 27dvw;
+}
+.text-vampbytes {
+  margin-top: 48px;
+  margin-left: 40dvw;
+  margin-right: 40dvw;
+}
+.text-join {
+  margin-top: 48px;
+  margin-left: 40dvw;
+  margin-right: 40dvw;
+}
+}
+
+@media (min-width: 2550px) {
+  .join-frame {
+    .image {
+      width: 28vw;
+      left: 36vw;
+      right: 36vw;
+    }
+    .gif {
+      width: 22vw;
+      margin-left: 29vw;
+    }
+  }
+
+  .vampbytes-frame {
+    .image {
+      width: 28vw;
+      left: 36vw;
+      right: 36vw;
+    }
+    .gif {
+      width: 22vw;
+      margin-left: 29vw;
+    }
+  }
+}
+@media (min-width:2650px){
+.skills-text{
+  margin-left: 30dvw;
+  margin-right: 30dvw;
+}
+}
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}

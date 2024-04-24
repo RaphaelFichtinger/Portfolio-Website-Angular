@@ -1,0 +1,30 @@
+<section id="contact">
+<div id="contact-heading"><p> {{ "txt144" | translate }} </p>
+</div>
+
+    <div class="contact-text">{{ "contact-text" | translate}}</div>
+
+    <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <textarea [(ngModel)]="contactData.name" name="name" id="input-1" type="text" placeholder="{{'name-company' | translate}}" required></textarea>
+            <textarea  [(ngModel)]="contactData.email" name="email"  id="input-2" type="email" placeholder="E-mail*" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"></textarea>
+            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message"  id="input-3" type="text" placeholder="{{'messagebox' | translate}}" required></textarea>
+       
+            @if (!message.valid && message.touched && !message.disabled){
+                <span class="spanclass">{{ "span-message" | translate }}</span>
+            }
+            <label for="privacyPolicyCheckbox">
+                <input type="checkbox" id="privacyPolicyCheckbox" name="privacyPolicyCheckbox" required [(ngModel)]="privacyPolicyAgreed">
+                {{ "text145" | translate }} <a [routerLink]="['privacy']" routerLinkActive="router-link-active">{{ "text146" | translate }}</a> {{ "text147" | translate }}
+            </label>
+            
+            <div  *ngIf="contactForm.submitted && !privacyPolicyAgreed" class="error-message">
+                {{ "text148" | translate }}
+            </div>
+            <input class="submit-btn" type="submit" value="{{'submit' | translate}}" [ngClass]="{ 'valid': contactForm.valid && privacyPolicyAgreed }" [disabled]="!contactForm.valid || !privacyPolicyAgreed">
+            
+            
+        </form>
+        <div class="success-message" *ngIf="showMessage" class="success-message">
+            {{ "text149" | translate }}
+          </div>
+</section>
